@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data & models
+data/*.xlsx
+data/*.csv
+!data/synthetic.csv
+models/
+results/
